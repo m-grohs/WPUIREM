@@ -49,7 +49,7 @@ function hideUI() {
 
 		// WOWTV
 		if (origin.includes(SUPPORTED_SITES[3])) {
-			const container = document.querySelector('[data-test-id="video-player-controls"');
+			const container = document.querySelector('[data-testid="overlay"]');
 
 			if (container) container.remove();
 		}
